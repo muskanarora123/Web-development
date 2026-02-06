@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Hour 2 - Media & Forms</title>
+</head>
+<body>
+
+    <h1>Images & Multimedia</h1>
+
+    <img src="https://via.placeholder.com/300"
+         alt="Sample Image"
+         width="300">
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <h2>Video</h2>
+    <video width="320" height="240" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <hr>
+
+    <h1>Tables</h1>
+
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Muskan</td>
+            <td>20</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Riya</td>
+            <td>21</td>
+            <td>IT</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h1>Forms</h1>
+
+    <form action="#" method="post">
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        <label>Country:</label><br>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
